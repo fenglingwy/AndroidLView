@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.powtronic.androidlview.view.ScrollingActivity">
+    <item
+        android:id="@+id/scroll"
+        android:orderInCategory="100"
+        android:title="scroll"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/enterAlways"
+        android:orderInCategory="100"
+        android:title="enterAlways"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/enterAlwaysCollapsed"
+        android:orderInCategory="100"
+        android:title="enterAlwaysCollapsed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exitUntilCollapsed"
+        android:orderInCategory="100"
+        android:title="exitUntilCollapsed"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/snap"
+        android:orderInCategory="100"
+        android:title="snap"
+        app:showAsAction="never" />
+</menu>

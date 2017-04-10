@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        //共享元素
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Translucent">
+        //背景透明，解决启动时闪一下黑屏问题
+        <item name="android:windowIsTranslucent">true</item>
+
+        //状态栏透明
+        <item name="android:windowTranslucentStatus">true</item>
+        //共享元素
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+</resources>
